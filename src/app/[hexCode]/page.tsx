@@ -24,7 +24,7 @@ export function generateMetadata({ params: { hexCode } }: Params): Metadata {
     description,
     openGraph: {
       title,
-      images: `${env("METADATA_BASE")}api/og/${hexCode}`,
+      images: `${env("METADATA_BASE")}/color/api/og/${hexCode}`,
       description,
     },
   };
