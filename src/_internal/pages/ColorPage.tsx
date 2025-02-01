@@ -74,7 +74,7 @@ export default function ColorPage({ hexCode }: ColorPageProps) {
                 <h3 className="text-xl font-semibold mb-4 text-center">
                   Similar Colors
                 </h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-2 gap-4">
                   {similarColors.map((similarColor) => (
                     <Link
                       href={`/${similarColor.replace("#", "")}`}
